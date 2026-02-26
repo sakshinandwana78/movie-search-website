@@ -13,7 +13,7 @@ export default function Home() {
   );
 
   useEffect(() => {
-    dispatch(fetchMovies("avengers")); // 👈 DEFAULT LOAD
+    dispatch(fetchMovies("avengers")); // 👈 DEFAULT LOAD 
   }, [dispatch]);
 
   if (loading) return <p className="text-white p-8">Loading...</p>;
