@@ -30,7 +30,7 @@ const Navbar = () => {
       
       <div className='flex text-lg gap-8 text-white font-semibold'>
         <Link href="/" className="hover:text-blue-400">About</Link>
-        <Link href="/watchlist" className="hover:text-green-400">Watchlist</Link>
+        <Link href="/contact" className="hover:text-green-400">Contact</Link>
         <Link href="/popular" className="hover:text-purple-400">Popular</Link>
         <Link href="/weather" className="hover:text-yellow-400">Weather</Link>
       </div>
